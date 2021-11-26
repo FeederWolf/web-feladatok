@@ -1,7 +1,11 @@
-body{
+#content{
     width: 960px;
     margin: auto;
+    margin-top: -25px;
+    margin-bottom: -25px;
     background-color: #d2691e;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 h1{
     text-decoration: underline 2px #a52a2a;
