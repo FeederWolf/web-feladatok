@@ -6,6 +6,16 @@ body{
 h1{
     text-decoration: underline 2px #a52a2a;
 }
+ul{
+    list-style-type: none; 
+}
+li{
+    display:inline; 
+    width: 50px;
+    border-right: #a52a2a solid 2px;
+    padding: 6px;
+    color: white;
+}
 .hasab {
 
 }
