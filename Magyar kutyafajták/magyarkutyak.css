@@ -24,6 +24,11 @@ h2{
 p{
     text-align: justify;
 }
+img{
+    width: 100px;
+    border: #a52a2a solid 2px;
+    float: left;
+}
 .hasab{
 
 }
