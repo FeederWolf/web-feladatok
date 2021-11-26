@@ -1,1 +1,1 @@
-# web-feladatok
+# web-feladatok for noobs
