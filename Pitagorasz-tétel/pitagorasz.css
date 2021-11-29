@@ -1,0 +1,37 @@
+body{
+    background-color:orange;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#torzs{
+    background-color: cornsilk;
+    width: 960px;
+    height: 1000px;
+    padding: 15px;
+}
+p{
+    text-indent: 20px;
+}
+h1{
+    border-bottom: 5px double orange;
+    text-align: center;
+    font-size: 50px;
+}
+h2{
+    border-bottom: 2px solid orange;
+    border-top: 2px solid orange;
+    width: 370px;
+}
+img{
+    float: right;
+    width: 200px;
+    border: 2px solid orange;
+}
+li{
+margin-left: 80px;
+}
+table{
+    float: right;
+}
+footer{
+    margin-left: 50px;
+}
