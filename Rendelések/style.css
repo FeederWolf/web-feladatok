@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+    background-color:darkgrey;
+    display: inline-block;
+}
+table, tr, td{
+   border: 1px solid black
+}
+img{
+    width: 120px;
+    height: 75px;
+}
+.fejlec{
+    color: white;
+    background-color: black;
+}
+p{
+    text-align: left;
+}
