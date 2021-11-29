@@ -1,0 +1,38 @@
+body{
+    background-image: url("back.jpg");
+}
+
+p{
+    font-weight: bold;
+}
+
+.torzs{
+    width: 1000px;
+    margin: auto;
+}
+.torzs img{
+    float: right;
+    width: 150px;
+    margin-right: 50px;
+}
+.header{
+    background-image: url("panorama.jpg");
+    min-width: 650px;
+    max-width: 1000px;
+    height: 250px;  
+}
+.header h1{
+    line-height: 140%;
+}
+
+.lada{
+    width: 450px;
+    background-color: #5B9CEA;
+    padding: 20px;
+}
+table, tr, td{
+   background-color: #B0D1F1;
+   border: 1px solid black;
+   text-align: center;
+   margin-bottom: 5px;
+}
