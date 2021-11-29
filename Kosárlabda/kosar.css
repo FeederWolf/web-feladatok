@@ -1,0 +1,25 @@
+#tovabb{
+	position:relative;
+	top:-39px;
+	left:580px;
+	width:120px;
+	background-color: rgba(255, 165, 0, 0.6);
+	color: white;
+	margin: -35px;
+	padding: 15px;
+}
+#tovabb:hover{
+	background-color: black;
+}
+#tartalom{
+	width: 600px;
+	margin-top: 0px;
+	margin:auto;
+}
+tr{
+width: 75px;
+margin: auto;
+}
+h1{
+	text-decoration: underline 1px lightgray;
+}
