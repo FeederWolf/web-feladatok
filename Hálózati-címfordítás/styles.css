@@ -55,7 +55,30 @@ p.imgtitle {
 table,
 .frame {
   border: 3px solid green;
+  background-color: rgba(227, 225, 233, 0.8);
+  text-align: center;
+  float: left;
+  
 }
+
+th{
+  color: white;
+  background-color: green;
+}
+
+table{
+  margin: 15px;
+}
+
+tr {
+  height: 55px;
+}
+
+td {
+  border: 2px solid black;
+  width: 200px;
+}
+
 
 a:link,
 a:visited {
