@@ -82,7 +82,11 @@ td {
 }
 
 
+a{
+  text-decoration: none;
+  color:blue
+}
 a:link,
 a:visited {
-  color: blue;
+  color: yellow;
 }
