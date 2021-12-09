@@ -16,7 +16,27 @@
     <h2>Működése</h2>
 
     A hálózati címfordító a belső gépekről érkező csomagokat az internetre továbbítás előtt úgy módosítja, hogy azok feladójaként saját magát tünteti fel, így az azokra érkező válaszcsomagok is hozzá kerülnek majd továbbításra, amiket – a célállomás címének módosítása után – a belső hálózaton elhelyezkedő eredeti feladó részére ad át. Ebből kifolyólag ez minden esetben egy aktív hálózati eszközt igényel, amely folyamatosan figyeli az érkező csomagokat és azok feladói és címzettjei alapján elvégzi a szükséges módosításokat. Ez többnyire egy tűzfal, amely megfelelően szétválasztja a külső internetet a belső hálózattól. Innen származik a terminológia is: a külső, illetve belső hálózat fogalma. A belső hálózatnak olyan címtartományt kell adni, amelyet minden hálózati eszköz a nemzetközi szabványoknak megfelelően belsőnek ismer el, és így azokat nem irányítja közvetlenül a külső hálózat felé. A belső címeket az alábbi táblázat mutatja be:
-    
+    <table><tr>
+    <th>RFC1918</th>
+    <th>IP címtartomány</th>
+    <th>egyedi címek száma</th>
+  </tr>
+  <tr>
+    <td>24-bit block</td>
+    <td>10.0.0.0 - 10.255.255.255</td>
+    <td>16 777 216 db</td>
+  </tr>
+  <tr>
+    <td>20-bit block</td>
+    <td>172.16.0.0 - 172.32.255.255</td>
+    <td>1 048 576 db</td>
+  </tr>
+  <tr>
+    <td>16-bit block</td>
+    <td>192.168.0.0 - 192.168.255.255</td>
+    <td>65 536 db</td>
+  </tr>
+</table>
     A címfordítás segítségével megoldható, hogy akár egy egész cég teljes belső hálózati forgalma egyetlen külső IP cím mögött legyen, azaz gyakorlatilag egyetlen külső címet használ el egy több száz gépes hálózat. A belső forgalomban természetesen szükség van az egyedi belső címekre, de erről csak a címfordítást végző hálózati eszközöknek kell tudnia, kifelé ennek részletei már nem látható információk. Így létrejöhet olyan gazdaságos konfiguráció is, hogy egy viszonylag nagy cég teljes külső címfoglalása 10-20 db cím, míg a belső forgalmukban akár több ezer belső cím is lehet. Nagy előnye ennek a technikának, hogy ugyanazt a belső tartományt nyugodtan használhatja bárki más is, amíg mindegyik egyedi külső cím mögé van fordítva, ez nem okoz zavart. Akár az összes NAT-ot használó cég belső hálózatában lehet minden gép a 10.0.0.0 tartományban, ha kifelé valóban egyedi címmel látszanak. Éppen a címfordítás technológiája miatt nem került gyorsabban bevezetésre az IPv6 szabvány, amely kifejlesztésének egyik oka az IPv4 fogyatkozó címtartományának kiváltása volt.
 
   </div>
