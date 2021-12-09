@@ -4,8 +4,6 @@ body {
   background-position-x: center;
   background-position-y: center;
   background-attachment: fixed;
-  background-size: cover;
-  background-image: url("hatter.jpg");
 }
 
 #content {
@@ -19,8 +17,8 @@ body {
 }
 
 .frame {
-  float: right;
   width: 490px;
+  float: right;
   padding: 0px 5px 5px;
   overflow: hidden;
   margin-left: 20px;
@@ -44,45 +42,11 @@ h2 {
 p.imgtitle {
   font-size: 1.1em;
   margin: 0;
-  line-height: 130%;
-  text-align: center;
-  font-style: italic;
-}
-
-p {
-  text-indent: 20px;
-  text-align: justify;
 }
 
 table,
 .frame {
   border: 3px solid green;
-  background-color: rgba(227, 225, 233, 0.8);
-  text-align: center;
-  float: left;
-  
-}
-
-table{
-  margin: 15px;
-}
-
-tr {
-  height: 55px;
-}
-
-td {
-  border: 2px solid black;
-  width: 200px;
-}
-
-.cellak {
-  background-color: green;
-  color: white;
-}
-
-a{
-  text-decoration: none;
 }
 
 a:link,
